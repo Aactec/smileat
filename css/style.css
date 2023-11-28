@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    padding: 20px 24px 20px 88px;
+    border-bottom-right-radius: 36px;
+    font-size: 20px;
+}
+
+span{
+    color: #ff4500;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    padding-inline-end: 48px;
+}
+
+li{
+    list-style-type: none;
+    padding-inline: 20px;
+    font-family: 'Revalia', sans-serif;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+a:hover{
+    color: #ff4500;
+    transition: 0.6s ease-out;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    padding-top: 22px;
+}
+
+main{
+    background-image: linear-gradient(#ffffff 35%, #ffffffbe), url(/image/hero\ \(2\).jpg);
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Revalia', sans-serif;
+    width: 80%;
+    margin: auto;
+    padding-block: 172px;
+}
+
+.main{
+    flex-basis: 50%;
+}
+
+.main h1{
+    font-size: 36px;
+}
+
+.main p{
+    font-size: 15px;
+}
+
+button{
+    padding: 12px 20px;
+    font-family: 'Revalia', sans-serif;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+    outline: none;
+    background: #ff4500;
+    color: #ffffff;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+section{
+    width: 80%;
+    margin: auto;
+    padding-block: 72px;
+}
+
+.headcon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Revalia', sans-serif;
+}
+
+.gridfood{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+    font-family: 'Revalia', sans-serif;
+}
+
+.gridfood i{
+    float: right;
+    padding-inline: 24px;
+    padding-block: 12px;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.gridfood i:hover{
+    color: #ff4500;
+}
+
+.gridfood .one{
+    background-image: url(/image/chopies.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .two{
+    background-image: url(/image/Bhuni-khichuri.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .three{
+    background-image: url(/image/masala\ salad.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .four{
+    background-image: url(/image/chochincake.webp);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .five{
+    background-image: url(/image/strawberry\ yogurt.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .six{
+    background-image: url(/image/chco.gif);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .seven{
+    background-image: url(/image/portugese\ food.webp);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .eight{
+    background-image: url(/image/egg\ masala.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 48vh;
+    border-radius: 12px;
+    box-shadow: 0 0 5px #000000;
+}
+
+.gridfood .foodcontent{
+    margin-top: 240px;
+    padding: 24px 16px;
+    width: 100%;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.gridfood .foodcontent:hover{
+    background: #ff4500;
+    color: #bbbbbb;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Revalia', sans-serif;
+}
+
+.About img{
+    width: 550px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.aboutcon{
+    flex-basis: 45%;
+}
+
+.aboutcon h3{
+    padding-block: 8px;
+}
+
+.aboutcon p{
+    padding-block: 16px;
+}
+
+.menu{
+    font-family: 'Revalia', sans-serif;
+}
+
+.menuheader{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.menuheader p{
+    font-size: 14px;
+    margin-block-start: 16px;
+}
+
+.foodtoggle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-block: 20px 56px;
+}
+
+.foodtoggle button{
+    padding: 8px 16px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 1px solid transparent;
+    background: transparent;
+    font-family: 'Revalia', sans-serif;
+    color: #000000;
+}
+
+.foodtoggle button:focus{
+    color: #ff4500;
+    border: 1px solid #ff4500;
+}
+
+.foodgridtoggle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.foodgridtoggle .food{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    background: #e9e8e8;
+    border-radius: 4px;
+}
+
+.food img{
+    width: 240px;
+    height: 280px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.food p{
+    font-size: 14px;
+    padding-block: 20px;
+}
+
+.foodtext{
+    padding-block: 36px;
+}
+
+.foodtext button{
+    background: transparent;
+    color: #ff4500;
+    border: 1px solid #ff4500;
+    margin-block: 32px 0;
+}
+
+.foodtext button:focus{
+    background: #ff4500;
+    color: #ffffff;
+}
+
+.sponsor{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Revalia', sans-serif;
+}
+
+.table{
+    padding: 56px 180px;
+    width: 60%;
+    font-family: 'Revalia', sans-serif;
+    background-image: linear-gradient(#ffffff94, #ffffff94), url(/image/tableimg.jpg);
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #000000;
+    margin-block: 72px;
+}
+
+.table-header{
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.table form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 12px;
+}
+
+form input{
+    padding: 8px 12px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #bbbbbb;
+    font-family: 'Revalia', sans-serif;
+}
+
+form button{
+    margin-top: 24px;
+    grid-column: span 3;
+}
+
+footer{
+    background-image: linear-gradient(#ffffff 24%, #ffffffa8), url(/image/footer.jpg);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Revalia', sans-serif;
+}
+
+.footer ol{
+    padding-top: 12px;
+}
+
+.footer ol li{
+    list-style-type: none;
+    padding-inline: 0px;
+    padding-block: 8px;
+}
+
+.footer form{
+    display: grid;
+    gap: 12px;
+    margin-block-start: 20px;
+}
+
+.footer form input{
+    padding: 8px 16px;
+}
+
+.footer form button{
+    margin-block: 0;
+    padding: 8px 8px;
+    width: 40%;
+}
