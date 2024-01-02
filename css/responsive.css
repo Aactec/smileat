@@ -1,0 +1,201 @@
+@media screen and (max-width: 920px) {
+    .hero{
+        padding-block: 92px;
+    }
+
+    header i{
+        background: #ff4500;
+        padding-block: 19.5px;
+        padding-inline: 40px;
+        border-bottom-left-radius: 8px;
+        color: #ffffff;
+        font-size: 24px;
+    }
+
+    #cls, #brs{
+        display: block;
+    }
+
+    nav{
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: none;
+    }
+
+    nav i{
+        padding: 20px;
+        background: none;
+        color: #000000;
+        font-size: 24px;
+    }
+    
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+        padding-inline: 40px;
+    }
+
+    main{
+        background-image: linear-gradient(#ffffff 20%, #ffffffbe), url(../image/hero\ \(2\).jpg);
+    }
+    
+    .hero{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .hero video{
+        display: none;
+    }
+    
+    .gridfood{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .gridfood i{
+        padding-block: 20px;
+    }
+    
+    .gridfood .foodcontent{
+        margin-top: 201px;
+    }
+    
+    .About{
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .About img{
+        width: 100%;
+        max-width: 550px;
+    }
+    
+    .menuheader{
+        width: 60%;
+        margin: auto;
+    }
+    
+    .foodtoggle{
+        gap: 32px;
+    }
+    
+    .foodgridtoggle{
+        grid-template-columns: auto;
+    }
+    
+    .foodgridtoggle .food{
+        gap: 20px;
+    }
+    
+    .food img{
+        width: 240px;
+        height: 240px;
+    }
+    
+    .food p{
+        font-size: 14px;
+        padding-block: 20px;
+    }
+    
+    .foodtext{
+        padding: 24px 10px;
+    }
+    
+    .table{
+        padding: 40px 60px;
+    }
+
+    .sponsor-logo{
+        width: 100%;
+    }
+    
+    footer{
+        height: 100%;
+    }
+    
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 28px;
+    }
+}
+
+
+
+@media screen and (max-width: 640px) {
+    .hero{
+        padding-block: 140px;
+    }
+
+    header i{
+        padding-inline: 32px;
+    }
+    .gridfood{
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+    
+    .gridfood i{
+        padding-block: 20px;
+    }
+    
+    .gridfood .foodcontent{
+        margin-top: 201px;
+    }
+    
+    .About{
+        flex-direction: column-reverse;
+        gap: 60px;
+    }
+    
+    .menuheader{
+        width: 100%;
+    }
+    
+    .foodtoggle{
+        gap: 2px;
+    }
+    
+    .foodgridtoggle{
+        grid-template-columns: auto;
+    }
+    
+    .foodgridtoggle .food{
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .food img{
+        width: 100%;
+        height: 240px;
+    }
+    
+    .foodtext{
+        padding: 24px;
+    }
+
+    .sponsor{
+        width: 80%;
+    }
+
+    .sponsor button{
+        margin-top: 8px;
+    }
+    
+    .table{
+        width: 80%;
+        padding: 40px 32px;
+    }
+    
+    footer{
+        height: 100%;
+    }
+    
+    .footer{
+        display: grid;
+        grid-template-columns: auto;
+        gap: 40px;
+    }
+}

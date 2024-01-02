@@ -38,6 +38,10 @@ span{
     color: #ff4500;
 }
 
+#cls, #brs{
+    display: none;
+}
+
 nav ul{
     display: flex;
     align-items: center;
@@ -294,7 +298,6 @@ section{
 
 .foodgridtoggle .food{
     display: flex;
-    justify-content: space-between;
     gap: 24px;
     background: #e9e8e8;
     border-radius: 4px;
@@ -333,6 +336,43 @@ section{
     width: 60%;
     margin: auto;
     font-family: 'Revalia', sans-serif;
+}
+
+.sponsor-logo{
+    background: #d4a9a9;
+    overflow-x: scroll;
+    width: 80%;
+    margin: auto;
+    height: 170px;
+    padding-block: 20px;
+    padding-inline: 40px;
+}
+
+.sponsor-logo::-webkit-scrollbar{
+    display: none;
+}
+
+.marquee{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    place-items: center;
+    gap: 16px;
+    animation: marquee 16s linear infinite;
+}
+
+.sponsor-logo img{
+    height: 124px;
+}
+
+@keyframes marquee {
+    from {
+        left: 100%;
+        transform: translateX(-100%);
+    }
+    to {
+        left: -100%;
+        transform: translateX(100%);
+    }
 }
 
 .table{

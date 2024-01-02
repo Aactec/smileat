@@ -11,7 +11,8 @@
     <body>
         <header>
             <p class="logo">Smileat<span>.</span></p>
-            <nav>
+            <nav id="menu">
+                <i onclick="closeNav()" class="fa-solid fa-close" id="cls"></i>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -20,6 +21,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <i onclick="openNav()" class="fa-solid fa-bars" id="brs"></i>
         </header>
         <main>
             <section class="hero">
@@ -167,6 +169,15 @@
             <button type="button">Explore</button>
             <div class="sponsorlogo"></div>
         </section>
+        <section class="sponsor-logo">
+            <div class="marquee">
+                <img src="image/tripadvisor.png" alt="" >
+                <img src="image/tripadvisor3.png" alt="" >
+                <img src="image/tripadvisor2.png" alt="" >
+                <img src="image/tripadvisor4.png" alt="" >
+                <img src="image/tripadvisor5.png" alt="" >
+            </div>
+        </section>
         <section class="table">
             <div class="table-header">
                 <span>Table</span>
@@ -231,5 +242,7 @@
                 </div>
             </section>
         </footer>
+
+        <script src="index.js"></script>
     </body>
 </html>
