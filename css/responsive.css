@@ -1,4 +1,4 @@
-@media screen and (max-width: 920px) {
+@media (max-width: 920px) {
     .hero{
         padding-block: 92px;
     }
