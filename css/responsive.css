@@ -132,6 +132,9 @@
     header i{
         padding-inline: 32px;
     }
+    .headcon p{
+        display: none;
+    }
     .gridfood{
         grid-template-columns: auto;
         gap: 20px;
