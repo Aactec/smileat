@@ -9,7 +9,7 @@
         padding-inline: 40px;
         border-bottom-left-radius: 8px;
         color: #ffffff;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     #cls, #brs{
@@ -27,7 +27,7 @@
         padding: 20px;
         background: none;
         color: #000000;
-        font-size: 24px;
+        font-size: 20px;
     }
     
     nav ul{
@@ -222,5 +222,10 @@
         display: grid;
         grid-template-columns: auto;
         gap: 40px;
+    }
+    
+    body p{
+        line-height: 1.2rem;
+        font-size: 13px;
     }
 }
