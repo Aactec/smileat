@@ -235,4 +235,8 @@
         line-height: 1.4rem;
         font-size: 13px;
     }
+
+    body button{
+        padding-bottom: 20px;
+    }
 }
