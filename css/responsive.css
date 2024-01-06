@@ -139,6 +139,7 @@
 
     .gridfood .one, .gridfood .two, .gridfood .three, .gridfood .four, .gridfood .five, .gridfood .six, .gridfood .seven, .gridfood .eight{
         height: 36vh;
+        overflow: hidden;
     }
     
     .gridfood i{
