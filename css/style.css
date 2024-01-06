@@ -401,6 +401,9 @@ section{
 
 form .input{
     display: grid;
+    gap: 8px;
+    width: 100%;
+    flex: 1;
 }
 
 form .input:nth-child(4){

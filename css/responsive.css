@@ -146,7 +146,7 @@
     }
     
     .gridfood .foodcontent{
-        margin-top: 128px;
+        margin-top: 140px;
     }
     
     .About{
@@ -201,8 +201,7 @@
     .table form{
         display: grid;
         grid-template-columns: auto;
-        column-gap: 20px;
-        row-gap: 12px;
+        column-gap: 16px;
     }
 
     form .input:nth-child(4){
@@ -225,7 +224,7 @@
     }
     
     body p{
-        line-height: 1.2rem;
+        line-height: 1.4rem;
         font-size: 13px;
     }
 }
