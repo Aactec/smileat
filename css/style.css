@@ -399,6 +399,14 @@ section{
     row-gap: 12px;
 }
 
+form .input{
+    display: grid;
+}
+
+form .input:nth-child(4){
+    grid-column: span 3;
+}
+
 form input{
     padding: 8px 12px;
     border-radius: 8px;

@@ -136,13 +136,17 @@
         grid-template-columns: auto;
         gap: 20px;
     }
+
+    .gridfood .one, .gridfood .two, .gridfood .three, .gridfood .four, .gridfood .five, .gridfood .six, .gridfood .seven, .gridfood .eight{
+        height: 36vh;
+    }
     
     .gridfood i{
         padding-block: 20px;
     }
     
     .gridfood .foodcontent{
-        margin-top: 201px;
+        margin-top: 128px;
     }
     
     .About{
@@ -186,8 +190,28 @@
     }
     
     .table{
-        width: 80%;
-        padding: 40px 32px;
+        width: 90%;
+        padding: 40px 24px;
+    }
+
+    .table-header{
+        padding-bottom: 32px;
+    }
+
+    .table form{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 20px;
+        row-gap: 12px;
+    }
+
+    form .input:nth-child(4){
+        grid-column: span 1;
+    }
+    
+    form button{
+        margin-top: 24px;
+        grid-column: span 1;
     }
     
     footer{
