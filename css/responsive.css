@@ -213,6 +213,7 @@
     form input{
         width: 100%;
         max-width: 336px;
+        padding-bottom: 16px;
     }
     
     form button{
