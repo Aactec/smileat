@@ -247,4 +247,7 @@
     body h1{
         line-height: 2.4rem;
     }
+    .footer form button{
+        padding-bottom: 16px;
+    }
 }
