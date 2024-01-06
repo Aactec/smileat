@@ -242,4 +242,12 @@
     body button{
         padding-bottom: 20px;
     }
+
+    body h3, {
+        line-height: 1.5rem;
+    }
+
+    body h1{
+        line-height: 2.4rem;
+    }
 }
