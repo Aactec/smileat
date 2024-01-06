@@ -209,6 +209,11 @@
     form .input:nth-child(4){
         grid-column: span 1;
     }
+
+    form input{
+        width: 100%;
+        max-width: 336px;
+    }
     
     form button{
         margin-top: 24px;
