@@ -136,7 +136,8 @@
         display: none;
     }
     .headcon h3{
-        margin-top: 8px;
+        margin-top: 4px;
+        font-size: 18px;
     }
     .gridfood{
         grid-template-columns: auto;
