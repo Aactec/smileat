@@ -91,6 +91,7 @@ main{
 
 .main p{
     font-size: 15px;
+    margin-top: 16px;
 }
 
 button{
@@ -102,7 +103,7 @@ button{
     outline: none;
     background: #ff4500;
     color: #ffffff;
-    margin-top: 16px;
+    margin-top: 24px;
     cursor: pointer;
 }
 
