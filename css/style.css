@@ -137,10 +137,6 @@ section{
     cursor: pointer;
 }
 
-.gridfood i:hover{
-    color: #ff4500;
-}
-
 .gridfood .one{
     background-image: url(../image/chopies.jpg);
     background-size: cover;
@@ -219,13 +215,17 @@ section{
     width: 100%;
     color: #ffffff;
     cursor: pointer;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
 
 .gridfood .foodcontent:hover{
     background: #ff4500;
     color: #bbbbbb;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
+}
+
+.gridfood i:hover{
+    color: #ff4500;
 }
 
 .About{
