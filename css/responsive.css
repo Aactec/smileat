@@ -135,6 +135,9 @@
     .headcon p{
         display: none;
     }
+    .headcon h3{
+        margin-top: 8px;
+    }
     .gridfood{
         grid-template-columns: auto;
         gap: 20px;
