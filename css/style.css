@@ -433,7 +433,7 @@ form input{
     border-radius: 8px;
     outline: none;
     border: 1px solid #bbbbbb;
-    font-family: 'Revalia', sans-serif;
+    /* font-family: 'Revalia', sans-serif; */
 }
 
 form button{
@@ -473,6 +473,7 @@ footer{
 
 .footer form input{
     padding: 8px 16px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer form button{
