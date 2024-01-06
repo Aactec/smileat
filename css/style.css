@@ -219,12 +219,26 @@ section{
     border-bottom-right-radius: 12px;
 }
 
-.gridfood .foodcontent:hover{
+.gridfood .one:hover .foodcontent,
+.gridfood .two:hover .foodcontent,
+.gridfood .three:hover .foodcontent,
+.gridfood .four:hover .foodcontent,
+.gridfood .five:hover .foodcontent,
+.gridfood .six:hover .foodcontent,
+.gridfood .seven:hover .foodcontent,
+.gridfood .eight:hover .foodcontent{
     background: #ff4500;
     color: #bbbbbb;
 }
 
-.gridfood i:hover{
+.gridfood .one:hover  i,
+.gridfood .two:hover i,
+.gridfood .three:hover i,
+.gridfood .four:hover i,
+.gridfood .five:hover i,
+.gridfood .six:hover i,
+.gridfood .seven:hover i,
+.gridfood .eight:hover i{
     color: #ff4500;
 }
 
