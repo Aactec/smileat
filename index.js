@@ -1,8 +1,7 @@
-const NavLink = document.getElementById(menu);
-
+const Menu = document.getElementById("menu");
 function openNav() {
-    NavLink.style.display = 'block';
+    Menu.style.display = 'block';
 }
 function closeNav() {
-    NavLink.style.display = 'none';
+    Menu.style.display = 'none';
 }
