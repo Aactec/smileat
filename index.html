@@ -18,7 +18,7 @@
                     <li><a href="#about">About</a></li>
                     <li><a href="#food">Food</a></li>
                     <li><a href="#menU">Menu</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li style="cursor: pointer;" onclick="openPopup()">Contact</li>
                 </ul>
             </nav>
             <i onclick="openNav()" class="fa-solid fa-bars" id="brs"></i>
@@ -201,6 +201,24 @@
                 </div>
                 <button type="submit">Check Availability</button>
             </form>
+        </section>
+        <section class="contact" id='contact'>
+            <div class="contactbg">
+                <i onclick="closePopup()" class="fa-solid fa-close" id="cls"></i>
+                <h3>Contact Me</h3>
+                <div class="contact-col">
+                    <div>
+                        <img src="./image/map4.png" alt="">
+                    </div>
+                    <div class="form">
+                        <input type="text" name="" id="" placeholder='First Name'>
+                        <input type="text" name="" id="" placeholder='Last Name'>
+                        <input type="email" name="" id="" placeholder='Email'>
+                        <textarea name="" id="" placeholder='Message' cols="8" rows="6"></textarea>
+                        <button type="submit">Send Message</button>
+                    </div>
+                </div>
+            </div>
         </section>
         <footer>
             <section class="footer">
